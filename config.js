@@ -19,8 +19,8 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
 global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/BLACK-PANTHER-MD/tree/main";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/933e3af7492a3ad2746b9.jpg,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg" ; // SET LOGO FOR IMAGE 
+global.website=process.env.GURL || "https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/eecd5673d4d80563d645b.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/522d399d03e2b682a6938.mp4,https://telegra.ph/file/cc3c025bb976c10f04e40.jpg,https://telegra.ph/file/b3a65285f9ed66762be0e.jpg" // BLACKPANTHER Theme Images
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/eecd5673d4d80563d645b.jpg" // BLACKPANTHER Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "🐯ᵇˡᵃᶜᵏᵖᵃⁿᵗʰᵉʳV3" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "Mac-md2.0" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "ᵇˡᵃᶜᵏᵖᵃⁿᵗʰᵉʳV3",
+  author : process.env.PACK_AUTHER|| "Mac",
   packname: process.env.PACK_NAME || "🐯",
-  botname : process.env.BOT_NAME  || "𝗕𝗟𝗔𝗖𝗞-𝗣𝗔𝗡𝗧𝗛𝗘𝗥-𝗠𝗗",
-  ownername:process.env.OWNER_NAME|| "Ibrahim Adams",
+  botname : process.env.BOT_NAME  || "MAC MD",
+  ownername:process.env.OWNER_NAME|| "mac",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "ADAM"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "GOKU"  ).toUpperCase(),
 
 
 
